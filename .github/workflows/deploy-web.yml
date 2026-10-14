@@ -27,6 +27,7 @@ jobs:
       - name: Build Flutter Web (Wasm)
         run: |
           flutter build web --wasm --base-href "/${{ github.event.repository.name }}/"
+          find build/web -name ".gitignore" -delete
           touch build/web/.nojekyll
 
       - name: Deploy to gh-pages branch
