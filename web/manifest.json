@@ -1,0 +1,35 @@
+{
+    "name": "Flutter Kart Grand Prix",
+    "short_name": "Flutter Kart GP",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0A0E14",
+    "theme_color": "#0A0E14",
+    "description": "3D Arcade Kart Racing featuring Flutter Dash & Alpaca Llama, built procedurally with Flutter GPU and flutter_scene.",
+    "orientation": "landscape-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
